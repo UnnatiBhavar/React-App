@@ -1,0 +1,77 @@
+.cancellation-page {
+    padding: 20px;
+    font-family: Arial, sans-serif;
+
+  }
+  
+  .cancellation-form {
+    margin-bottom: 20px;
+  }
+  
+  .cancellation-form label {
+    display: block;
+    margin-bottom: 5px;
+  }
+  
+  .cancellation-form input {
+    width: 25%;
+    padding: 8px;
+    margin-bottom: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+  }
+  
+  button {
+    padding: 10px 20px;
+    background-color: rgb(9, 47, 131);
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: rgb(42, 133, 185);
+  }
+  
+  .success-message, .error-message {
+    padding: 10px;
+    margin-top: 10px;
+    border-radius: 4px;
+    background-color: #e6f7e6;
+    color: #2b8a3e;
+  }
+  
+  .error-message {
+    background-color: #fdd;
+    color: #b71c1c;
+  }
+  
+  .cancellation-policy {
+    margin-top: 30px;
+  }
+  
+  .cancellation-charges {
+    margin-top: 20px;
+  }
+  
+  .charges-table {
+    width: 50%;
+    border-collapse: collapse;
+    margin-top: 10px;
+  }
+  
+  .charges-table th, .charges-table td {
+    padding: 12px;
+    border: 1px solid #ddd;
+    text-align: left;
+  }
+  
+  .charges-table th {
+    background-color: #0073e6;
+    color: white;
+  }
+  
+  .charges-table td {
+    background-color: #f9f9f9;
+  }
